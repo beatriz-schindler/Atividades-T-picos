@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	
 	<% if(request.getParameter("titulo") == null || request.getParameter("ano") == null || request.getParameter("autor") == null){
 		out.println("<h2>Por favor, digite todos os parâmetros (título/ano/autor) na URL para melhor visualização</h2>"); 
 		} else{
